@@ -37,10 +37,10 @@ def preprocess_text(text: str, max_words: int = 500) -> str:
 
 if __name__ == "__main__":
     # Task 3: Test with the standard sample
-    sample_text = "AI is growing fast.\n\nIt helps in\teducation, healthcare, and business."
+    # sample_text = "AI is growing fast.\n\nIt helps in\teducation, healthcare, and business."
     
     # Class Activity: Use the 'MESSY' text for your screenshot!
-    # activity_text = "aI Is GrOwInG FaSt.\nIt HELPS in Education, HEALTHCARE, and business."
+    sample_text = "aI Is GrOwInG FaSt.\nIt HELPS in Education, HEALTHCARE, and business."
     
     processed = preprocess_text(sample_text, max_words=20)
     print("\n--- Processed Text ---")

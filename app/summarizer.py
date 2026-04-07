@@ -31,13 +31,15 @@ class TextSummarizer:
 if __name__ == "__main__":
     summarizer = TextSummarizer()
     text = """
-    Those prehistoric creatures who met their end around 65 million years ago are currently being memorialized online
-    by dino-heads who mourn their mass extinction. Fans chop up animated footage of dinosaur hatchlings or long-necked
-    herbivores in courtship (mostly taken from the recent Netflix docuseries “The Dinosaurs”) and set it to somber music.
-    “The world was supposed to be theirs,” one viewer lamented in the comments.
-    Dinosaurs do not know, another TikToker opined, that “we found them and we love them with everything we have.”
-    Others wondered how they could miss creatures they never knew.
-    """
+    Big data refers to the large volume of structured and unstructured data generated
+    every day. As artificial intelligence becomes more advanced, ethical concerns are
+    becoming more important. Issues such as data privacy, algorithm bias, and job
+    displacement need to be carefully managed. Governments and organizations must work
+    together to ensure AI is used responsibly and fairly. Organizations use big data analytics
+    to uncover hidden patterns, correlations, and insights that can improve decision-making.
+    With the help of technologies such as machine learning and data mining, companies can
+    gain a competitive advantage and better understand customer behavior.
+        """
     summary = summarizer.summarize(text)
     print("Generated Summary:")
     print(summary)
